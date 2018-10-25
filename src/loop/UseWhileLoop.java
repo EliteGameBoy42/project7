@@ -1,0 +1,16 @@
+package loop;
+
+public class UseWhileLoop {
+    public static void main(String[] args) {
+        int num = 10;
+
+        while (num >0) {
+            System.out.println(num);
+            num=num-2;
+        }
+//        while (true) {
+//            System.out.println("I am Syful...");
+//
+//        }
+    }
+}
